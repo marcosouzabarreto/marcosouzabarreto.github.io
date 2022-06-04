@@ -1,5 +1,11 @@
+import { Header } from './pages/Header';
+
 function App() {
-  return <div className="App">Hello World</div>;
+  return (
+    <div className="bg-primary">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
