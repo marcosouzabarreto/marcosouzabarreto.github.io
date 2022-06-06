@@ -2,7 +2,7 @@ import React from 'react';
 import ProfilePicture from '../assets/images/profile.jpg';
 import { Arrow } from '../components/Arrow';
 
-export const Header = () => {
+export function Header() {
   return (
     <div className="text-text-light h-screen w-5/6 m-auto text-center font-montserrat font-bold py-[15vh]">
       <h1 className="lg:text-8xl md:text-7xl sm:text-6xl text-5xl">
@@ -20,4 +20,4 @@ export const Header = () => {
       <Arrow />
     </div>
   );
-};
+}
