@@ -1,10 +1,10 @@
-import React from 'react';
-import { Header } from './pages/Header';
+import { Header, Home } from './components';
 
 function App() {
   return (
-    <div className="bg-primary">
+    <div>
       <Header />
+      <Home />
     </div>
   );
 }
